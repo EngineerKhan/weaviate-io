@@ -473,7 +473,7 @@ import GraphQLFiltersWhereBeaconCount from '/_includes/code/graphql.filters.wher
 
 A special case of the `Where` filter is with geoCoordinates. This filter is only supported by the `Get{}` function. If you've set the `geoCoordinates` property type, you can search in an area based on kilometers.
 
-For example, this curious returns all in a radius of 2KM around a specific geo-location:
+For example, this curious returns all in a radius of 10Km around a specific geo-location:
 
 import GraphQLFiltersWhereGeocoords from '/_includes/code/graphql.filters.where.geocoordinates.mdx';
 
